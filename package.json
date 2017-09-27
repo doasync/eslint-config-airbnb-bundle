@@ -11,6 +11,10 @@
   "bin": {
     "eslint": "node_modules/eslint/bin/eslint.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doasync/eslint-config-airbnb-bundle.git"
+  },
   "dependencies": {
     "eslint": "^4.7.2",
     "eslint-config-airbnb": "^15.1.0",
