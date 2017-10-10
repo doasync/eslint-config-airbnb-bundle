@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-airbnb-bundle",
   "description": "ESLint bundled with Airbnb config",
-  "version": "1.0.0",
+  "version": "1.1.5",
   "author": {
     "name": "DoAsync",
     "email": "doasync@gmail.com"
@@ -17,10 +17,11 @@
   },
   "dependencies": {
     "eslint": "^4.7.2",
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb": "^16.0.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "babel-eslint": "^8.0.1"
   },
   "bundleDependencies": [
     "eslint",
