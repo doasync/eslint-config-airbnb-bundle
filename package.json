@@ -18,7 +18,7 @@
   "dependencies": {
     "babel-eslint": "^8",
     "eslint": "^4",
-    "eslint-config-airbnb": "^16",
+    "eslint-config-airbnb": "^17",
     "eslint-plugin-babel": "x",
     "eslint-plugin-compat": "^2",
     "eslint-plugin-flowtype": "x",
