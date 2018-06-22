@@ -27,6 +27,7 @@
     "eslint-plugin-react": "^7"
   },
   "bundleDependencies": [
+    "babel-eslint",
     "eslint",
     "eslint-config-airbnb",
     "eslint-plugin-babel",
