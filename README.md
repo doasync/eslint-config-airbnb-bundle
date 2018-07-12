@@ -1,6 +1,6 @@
 # Eslint with Airbnb style
 
-![ESLint Airbnb Standard JS logo](https://i.imgur.com/vPaV2CK.png?1)
+![ESLint Airbnb Bundle JS logo](https://i.imgur.com/vPaV2CK.png?1)
 
 ESLint bundled with the original Airbnb Style config. Global installation is supported! No struggle with peer dependencies, easily integrates with your code editors.
 
@@ -55,7 +55,7 @@ Here is an example for `eslint-loader`:
 {
   loader: 'eslint-loader',
   options: {
-    eslintPath: 'eslint-config-airbnb-standard/node_modules/eslint',
+    eslintPath: 'eslint-config-airbnb-bundle/node_modules/eslint',
   }
 },
 ```
@@ -83,14 +83,14 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
    Add ESLint path to your workspace settings (do not use `~`):
     ```json
     {
-      "eslint.nodePath": "/home/username/.nvm/versions/node/v10.5.0/lib/node_modules/eslint-config-airbnb-standard/node_modules/eslint",
+      "eslint.nodePath": "/home/username/.nvm/versions/node/v10.5.0/lib/node_modules/eslint-config-airbnb-bundle/node_modules/eslint",
     }
     ```
 
    Relative path for local installation:
     ```json
     {
-      "eslint.nodePath": "node_modules/eslint-config-airbnb-standard/node_modules/eslint",
+      "eslint.nodePath": "node_modules/eslint-config-airbnb-bundle/node_modules/eslint",
     }
     ```
 
@@ -106,7 +106,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
         codeFrame: false
       },
       extends: [
-        'airbnb-standard',
+        'airbnb-bundle',
       ],
     };
     ```
@@ -142,7 +142,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
 7. Create `.eslintrc` file inside your working project:
     ```json
     {
-      "extends": ["airbnb-standard"]
+      "extends": ["airbnb-bundle"]
     }
     ```
 
@@ -175,7 +175,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
 
    b) Paste the prefix path to the field *"Global Node Installation Path"* and append:
    ```bash
-   /lib/node_modules/eslint-config-airbnb-standard
+   /lib/node_modules/eslint-config-airbnb-bundle
    ```
 
     ![Example](https://i.imgur.com/9pj68pp.png?1)
@@ -183,7 +183,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
 7. Create `.eslintrc` file inside your working project:
     ```json
     {
-      "extends": ["airbnb-standard"]
+      "extends": ["airbnb-bundle"]
     }
     ```
 
