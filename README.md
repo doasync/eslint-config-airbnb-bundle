@@ -64,7 +64,7 @@ Here is an example for `eslint-loader`:
 
 File ➤ Settings / Default Settings ➤ Languages and Frameworks ➤ JavaScript ➤ Code Quality Tools ➤ ESLint
 
-![ESLint settings](http://i.imgur.com/ZznYeJU.png)
+![ESLint settings](https://i.imgur.com/vIjZBq1.png)
 
 Global installation in not necessary for WebStorm, but it is handy for the "Default Settings".
 
@@ -152,7 +152,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
 
 10. You can switch to squiggly underline mark style from *Tools*. Have fun!
 
-![Example](http://i.imgur.com/3nzwkdK.png?1)
+![Example](https://i.imgur.com/ShuWHXU.png)
 
 ## Atom
 
