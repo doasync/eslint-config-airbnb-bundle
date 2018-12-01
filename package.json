@@ -1,10 +1,10 @@
 {
-  "name": "eslint-config-airbnb-bundle",
-  "description": "ESLint bundled with Airbnb config",
-  "version": "2.0.4",
+  "name": "eslint-config-drupal-bundle",
+  "description": "ESLint bundled with drupal core config",
+  "version": "1.0.0",
   "author": {
-    "name": "DoAsync",
-    "email": "doasync@gmail.com"
+    "name": "shaundrong",
+    "email": "sdrong@eap.ucop.edu"
   },
   "license": "MIT",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doasync/eslint-config-airbnb-bundle.git"
+    "url": "git://github.com/shaundrong/eslint-config-drupal-bundle.git"
   },
   "resolutions": {
     "eslint-scope": "3.7.1"
@@ -22,22 +22,28 @@
     "babel-eslint": "^8",
     "eslint": "^4",
     "eslint-config-airbnb": "^17",
+    "eslint-config-prettier": "^2",
     "eslint-plugin-babel": "x",
     "eslint-plugin-compat": "^2",
     "eslint-plugin-flowtype": "x",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jsx-a11y": "^6",
-    "eslint-plugin-react": "^7"
+    "eslint-plugin-prettier": "^2",
+    "eslint-plugin-react": "^7",
+    "prettier": "^1"
   },
   "bundleDependencies": [
     "babel-eslint",
     "eslint",
+    "prettier",
     "eslint-config-airbnb",
+    "eslint-config-prettier",
     "eslint-plugin-babel",
     "eslint-plugin-compat",
     "eslint-plugin-flowtype",
     "eslint-plugin-import",
     "eslint-plugin-jsx-a11y",
+    "eslint-plugin-prettier",
     "eslint-plugin-react"
   ],
   "keywords": [
@@ -45,6 +51,8 @@
     "eslintconfig",
     "config",
     "airbnb",
+    "prettier",
+    "drupal",
     "javascript",
     "styleguide",
     "standard",
