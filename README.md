@@ -1,8 +1,8 @@
-# Eslint with Airbnb style
+# Eslint with Drupal style
 
-![ESLint Airbnb Bundle JS logo](https://i.imgur.com/vPaV2CK.png?1)
+![ESLint Drupal Bundle JS logo](https://i.imgur.com/YyN3KrM.png)
 
-ESLint bundled with the original Airbnb Style config. Global installation is supported! No struggle with peer dependencies, easily integrates with your code editors.
+ESLint bundled with the original Airbnb Style and prettier/recommended configs. Global installation is supported! No struggle with peer dependencies, easily integrates with your code editors.
 
 See [airbnb/javascript] for more information.
 
