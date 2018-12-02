@@ -4,11 +4,12 @@
 
 ESLint bundled with the original Airbnb Style and prettier/recommended configs. Global installation is supported! No struggle with peer dependencies, easily integrates with your code editors.
 
-See [airbnb/javascript] for more information.
+See [airbnb/javascript] and [prettier/eslint] for more information.
 
 See instructions for WebStorm, VSCode, Sublime Text and Atom
 
 [airbnb/javascript]: https://github.com/airbnb/javascript
+[prettier/eslint]: https://prettier.io/docs/en/eslint.html
 
 ## Installation
 
