@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-drupal-bundle",
   "description": "ESLint bundled with drupal core config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "shaundrong",
     "email": "sdrong@eap.ucop.edu"
