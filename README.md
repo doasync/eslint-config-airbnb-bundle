@@ -193,3 +193,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
 ## Custom Config
 
 Add your own rules to the `.eslintrc` file in your project folder.
+
+## Credit
+
+All credit to [doasync](https://github.com/doasync) and the original [eslint-config-airbnb-bundle](https://github.com/doasync/eslint-config-airbnb-bundle) of which this is a fork just adding extra config/dependencies of prettier to have function under Drupal 8.6+.
