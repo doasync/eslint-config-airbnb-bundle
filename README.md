@@ -64,7 +64,7 @@ Here is an example for `eslint-loader`:
 
 File ➤ Settings / Default Settings ➤ Languages and Frameworks ➤ JavaScript ➤ Code Quality Tools ➤ ESLint
 
-![ESLint settings](https://i.imgur.com/vIjZBq1.png)
+![ESLint settings](https://i.imgur.com/YcmHkhx.png)
 
 Global installation in not necessary for WebStorm, but it is handy for the "Default Settings".
 
@@ -178,7 +178,7 @@ Global installation in not necessary for WebStorm, but it is handy for the "Defa
    /lib/node_modules/eslint-config-drupal-bundle
    ```
 
-    ![Example](https://i.imgur.com/9pj68pp.png?1)
+    ![Example](https://i.imgur.com/6S9qYKk.png)
 
 7. Create `.eslintrc` file inside your working project:
     ```json
