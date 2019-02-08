@@ -15,9 +15,6 @@
     "type": "git",
     "url": "git://github.com/doasync/eslint-config-airbnb-bundle.git"
   },
-  "resolutions": {
-    "eslint-scope": "3.7.1"
-  },
   "dependencies": {
     "babel-eslint": "^8",
     "eslint": "^4",
