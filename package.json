@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-drupal-bundle",
   "description": "ESLint bundled with drupal core config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "shaundrong",
     "email": "sdrong@eap.ucop.edu"
@@ -9,7 +9,8 @@
   "license": "MIT",
   "main": "index.js",
   "bin": {
-    "eslint": "node_modules/eslint/bin/eslint.js"
+    "eslint": "node_modules/eslint/bin/eslint.js",
+    "prettier": "node_modules/prettier/bin-prettier.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,12 @@
     "eslint": "^4",
     "eslint-config-airbnb": "^17",
     "eslint-config-prettier": "^2",
-    "eslint-plugin-babel": "x",
-    "prettier": "^1"
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-prettier": "^2",
-    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-babel": "^5",
     "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-prettier": "^2",
+    "eslint-plugin-react": "^7",
+    "prettier": "^1"
   },
   "bundleDependencies": [
     "babel-eslint",
