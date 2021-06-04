@@ -1,32 +1,29 @@
 {
   "name": "eslint-config-drupal-bundle",
+  "version": "1.0.3",
   "description": "ESLint bundled with drupal core config",
-  "version": "1.0.2",
-  "author": {
-    "name": "shaundrong",
-    "email": "sdrong@eap.ucop.edu"
-  },
-  "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "bin": {
     "eslint": "node_modules/eslint/bin/eslint.js",
     "prettier": "node_modules/prettier/bin-prettier.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shaundrong/eslint-config-drupal-bundle.git"
+    "url": "git+https://github.com/shaundrong/eslint-config-drupal-bundle.git"
   },
   "dependencies": {
-    "babel-eslint": "^8",
-    "eslint": "^4",
-    "eslint-config-airbnb": "^17",
-    "eslint-config-prettier": "^2",
-    "eslint-plugin-babel": "^5",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jsx-a11y": "^6",
-    "eslint-plugin-prettier": "^2",
-    "eslint-plugin-react": "^7",
-    "prettier": "^1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-babel": "x",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-config-prettier": "^2.6.2",
+    "prettier": "^1.14.0"
   },
   "bundleDependencies": [
     "babel-eslint",
@@ -67,5 +64,14 @@
     "lint",
     "quality",
     "verify"
-  ]
+  ],
+  "author": {
+    "name": "shaundrong",
+    "email": "sdrong@eap.ucop.edu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaundrong/eslint-config-drupal-bundle/issues"
+  },
+  "homepage": "https://github.com/shaundrong/eslint-config-drupal-bundle#readme"
 }
